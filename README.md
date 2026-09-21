@@ -4,7 +4,7 @@ An interactive coffee brewing simulator and UI/UX showcase built with **React**,
 
 ---
 
-## 🌟 Features
+## Features
 
 - **12 Authentic Coffee Recipes with Custom Pixel Badges:**
   - *Espresso, Black Coffee (Drip), Americano, Long Black, Cappuccino, Latte, Flat White, Macchiato, Cortado, Mocha, Affogato, Cold Brew.*
@@ -26,7 +26,7 @@ An interactive coffee brewing simulator and UI/UX showcase built with **React**,
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 To run the café locally:
 
