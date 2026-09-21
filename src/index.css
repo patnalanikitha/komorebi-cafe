@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Fredoka', system-ui, sans-serif;
+    background-color: #261814;
+    color: #f7eee1;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom Cozy Scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #352119;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #734e38;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a55d35;
+}
+
+/* Pixel art rendering helper */
+.pixel-render {
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+}
+
+/* Custom Wood Pattern */
+.bg-wood-pattern {
+  background-color: #3b241b;
+  background-image: radial-gradient(#4d3024 15%, transparent 16%), radial-gradient(#4d3024 15%, transparent 16%);
+  background-size: 60px 60px;
+  background-position: 0 0, 30px 30px;
+}
+
+/* Subtle glowing lamp effect */
+.lamp-glow {
+  box-shadow: 0 -20px 80px 40px rgba(253, 224, 71, 0.08);
+}
